@@ -5,10 +5,12 @@
     "bun-types": "latest"
   },
   "dependencies": {
+    "@line/bot-sdk": "^7.5.2",
     "hono": "^2.2.5"
   },
   "scripts": {
-    "start": "bun run src/index.ts"
+    "start": "bun run src/index.ts",
+    "ngrok": "npx ngrok http 3000"
   },
   "module": "src/index.js"
 }
