@@ -1,21 +1,17 @@
-# Hono with Bun runtime
+# bun-line-bot-echo.ts
 
-## Getting Started
+## Requirement
 
-### Cloning the repo
+https://bun.sh/
 
-```sh
-bun create hono ./NAME_HERE
+## Install
+
+```bash
+bun install
 ```
 
-### Development
+## Run
 
-```
+```bash
 bun run start
 ```
-
-Open http://localhost:3000 with your browser to see the result.
-
-### For more information
-
-See <https://honojs.dev/>
